@@ -1,13 +1,11 @@
 'use client'
 
-import Nav from "@/components/Nav";
 import { motion } from "framer-motion";
 
-const page = () => {
+const Listings = () => {
   return (
     <>
-      <Nav />
-      <section className="max-w-7xl mx-auto px-4">
+      <section className="max-w-7xl mx-auto px-4" id="listings">
         <motion.h2
           className="text-4xl my-[3rem] font-bold text-center uppercase text-[#707070]"
           initial={{ opacity: 0, y: -20 }}
@@ -37,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Listings;

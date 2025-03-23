@@ -22,8 +22,8 @@ const Nav = () => {
         <div className="hidden md:flex space-x-5 text-lg font-semibold gap-5 uppercase">
           <Link href="/" className="hover:text-blue-500 transition duration-300">home</Link>
           <Link href="/contact" className="hover:text-blue-500 transition duration-300">contact us</Link>
-          <Link href="/about" className="hover:text-blue-500 transition duration-300">book now</Link>
-          <Link href="/faq" className="hover:text-blue-500 transition duration-300">faq</Link>
+          <Link href="#bookus" className="hover:text-blue-500 transition duration-300">book now</Link>
+          <Link href="#faqs" className="hover:text-blue-500 transition duration-300">faq</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -41,8 +41,8 @@ const Nav = () => {
       >
         <Link href="/" className="hover:text-blue-500 py-4 transition duration-300" onClick={() => setIsOpen(false)}>home</Link>
         <Link href="/contact" className="hover:text-blue-500 py-4 transition duration-300" onClick={() => setIsOpen(false)}>contact us</Link>
-        <Link href="/about" className="hover:text-blue-500 py-4 transition duration-300" onClick={() => setIsOpen(false)}>book now</Link>
-        <Link href="/faq" className="hover:text-blue-500 py-4 transition duration-300" onClick={() => setIsOpen(false)}>faq</Link>
+        <Link href="#bookus" className="hover:text-blue-500 py-4 transition duration-300" onClick={() => setIsOpen(false)}>book now</Link>
+        <Link href="/faqs" className="hover:text-blue-500 py-4 transition duration-300" onClick={() => setIsOpen(false)}>faq</Link>
       </motion.div>
     </div>
   );
