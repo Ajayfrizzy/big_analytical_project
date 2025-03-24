@@ -16,7 +16,7 @@ const Listings = () => {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 items-center justify-center">
-          {Array(5)
+          {Array(4)
             .fill(0)
             .map((_, index) => (
               <motion.div

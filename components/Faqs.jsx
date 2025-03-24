@@ -16,7 +16,7 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-[5rem] space-y-4" id="faqs">
+    <div className="max-w-2xl mx-auto mt-[7rem] space-y-4" id="faqs">
       <p className="text-center text-lg md:text-xl">
         <span className="block font-bold uppercase text-[#595959]">Frequently Asked Questions</span>
         <span className="text-[#837c67] block py-4 px-3">
