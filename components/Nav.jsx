@@ -14,9 +14,12 @@ const Nav = () => {
   return (
     <div className="bg-white text-black shadow-2xl sticky top-0 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto py-2 px-4">
+
+        <Link href="/">
         <div className="border-2 border-[#FAF9F6] rounded-3xl">
           <Image src="/asset/top_logo.png" alt="Fusion Property Logo" width={100} height={100} />
         </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-5 text-lg font-semibold gap-5 uppercase">
