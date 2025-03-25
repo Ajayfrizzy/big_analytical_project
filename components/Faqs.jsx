@@ -17,9 +17,9 @@ const Accordion = ({ items }) => {
 
   return (
     <div className="max-w-2xl mx-auto mt-[7rem] space-y-4" id="faqs">
-      <p className="text-center text-lg md:text-xl">
+      <p className="text-center text-[0.9rem] md:text-[1.2rem]">
         <span className="block font-bold uppercase text-[#595959]">Frequently Asked Questions</span>
-        <span className="text-[#837c67] block py-4 px-3">
+        <span className="text-[#837c67] block py-4 px-3 text-[0.9rem] md:text-[1.2rem]">
           Please reach us at{" "}
           <Link href="mailto:info@fusionproperty.co.uk" className="text-blue-500 hover:underline">
             info@fusionproperty.co.uk
@@ -37,7 +37,7 @@ const Accordion = ({ items }) => {
             onClick={() => toggleItem(index)}
             className="flex justify-between items-center w-full p-4 text-sm md:text-lg font-semibold bg-gray-100 hover:bg-gray-200 transition duration-300 ease-in-out text-justify"
           >
-            <span className="pr-4">{item.title}</span>
+            <span className="pr-4 md:text-[1.2rem] text-[0.8rem]">{item.title}</span>
             <motion.span
               animate={{ rotate: openIndexes.includes(index) ? 180 : 0 }}
               transition={{ duration: 0.3 }}

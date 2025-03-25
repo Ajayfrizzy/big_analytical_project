@@ -3,6 +3,11 @@
 import { useState, useEffect, useRef } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import Feedback from "@/components/Feedback"; // Import the Feedback Form component
+import { FaFacebookF } from "react-icons/fa";
+import { AiFillYoutube } from "react-icons/ai";
+import { FaInstagram } from "react-icons/fa";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -114,6 +119,32 @@ const Footer = () => {
             )}
           </div>
         </div>
+      </footer>
+      <footer className="max-w-7xl mx-auto text-center pt-[2rem] pb-[1rem] px-[1rem]">
+        <div>
+            <Image src="/asset/bottom_logo.png" width={300} height={150} alt="Fusions Property Ltd Logo" className="md:block hidden"/>
+            <Image src="/asset/bottom_logo.png" width={150} height={75} alt="Fusions Property Ltd Logo" className="md:hidden"/>
+        </div>
+
+        <div className="text-[#000] text-sm md:text-base py-[2.5rem]">
+          <p className="md:text-[1.5rem] text-[0.9rem]">Connect with us on our Social Media Pages</p>
+          <ul className="flex justify-center items-center gap-3 py-5">
+            <li>
+              <Link href="https://web.facebook.com/DFUSP/" target="_blank"><FaFacebookF className="w-[2rem] h-[2rem] border-1 border-[#00f] rounded-full p-1 text-[#fff] bg-[#00f]"/></Link>
+            </li>
+            <li>
+              <Link href="https://www.instagram.com/deefusionproperty_/?igsh=MXc1dzZ1Mm5pcTluYg%3D%3D&utm_source=qr#" target="_blank" ><FaInstagram className="w-[2rem] h-[2rem] border-1 border-[#e1306c] rounded-full p-1 text-[#fff] bg-[#e1306c]"/></Link>
+            </li>
+            <li>
+              <Link href="https://www.youtube.com/@FusionProperty" target="_blank" ><AiFillYoutube className="w-[2rem] h-[2rem] border-1 border-[#f00] rounded-full p-1 text-[#fff] bg-[#f00]"/></Link>
+            </li>
+          </ul>
+        </div>
+
+          <p className="text-[#000] md:text-[1.5rem] text-[0.8rem] uppercase">
+          Copyright &copy; 2025 Fusions Property Ltd - All Rights Reserved.
+          </p>
+          <p className="text-right pt-[1.2rem] md:text-[1.2rem] text-[0.9rem]">Powered by Ajay<span className="md:text-[1.2rem] text-[0.9rem] font-bold">Tech</span></p>
       </footer>
     </>
   );

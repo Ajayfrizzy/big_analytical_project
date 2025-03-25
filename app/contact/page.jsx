@@ -11,7 +11,7 @@ const page = () => {
         <h3 className="text-center font-bold text-[1.5rem] uppercase py-[3rem]">
           Contact US
         </h3>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto px-4 md:px-0">
           <p>
             TO ENQUIRE ABOUT THE AVAILABILITY OF ANY OF OUR ROOMS, OR FOR MORE
             INFORMATION ABOUT WHAT WE DO, PLEASE CONTACT BY EITHER CALLING US,
