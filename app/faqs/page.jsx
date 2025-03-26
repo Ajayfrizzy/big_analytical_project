@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
+import Nav from "@/components/Nav";
 
 // Accordion Component
 const Accordion = ({ items }) => {
@@ -165,6 +166,7 @@ const Faqs = () => {
 
   return (
     <>
+    <Nav/>
       <Accordion items={accordionItems} />
     </>
   );

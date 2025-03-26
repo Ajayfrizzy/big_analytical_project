@@ -40,7 +40,7 @@ const Wwd = () => {
             </p>
 
             <Link
-              href="/more"
+              href="#"
               className="uppercase flex items-center justify-center text-[#7d7660] pb-2"
             >
               <span className="pr-3 border-b-2 border[#7d7660] text-[0.9rem]">
@@ -71,7 +71,7 @@ const Wwd = () => {
             </p>
 
             <Link
-              href="/more"
+              href="#"
               className="uppercase flex items-center justify-center text-[#7d7660] pb-2"
             >
               <span className="pr-3 border-b-2 border[#7d7660] text-[0.9rem]">
@@ -117,7 +117,6 @@ const Wwd = () => {
 
             <Link
               href="/tenant"
-              target="_blank"
               className="uppercase flex items-center justify-center text-[#7d7660] pb-2"
             >
               <span className="pr-3 border-b-2 border[#7d7660] text-[0.9rem]">

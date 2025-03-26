@@ -127,7 +127,7 @@ const Footer = () => {
         </div>
 
         <div className="text-[#000] text-sm md:text-base py-[2.5rem]">
-          <p className="md:text-[1.5rem] text-[0.9rem]">Connect with us on our Social Media Pages</p>
+          <p className="md:text-[1.2rem] text-[0.9rem]">Connect with us on our Social Media Pages</p>
           <ul className="flex justify-center items-center gap-3 py-5">
             <li>
               <Link href="https://web.facebook.com/DFUSP/" target="_blank"><FaFacebookF className="w-[2rem] h-[2rem] border-1 border-[#00f] rounded-full p-1 text-[#fff] bg-[#00f]"/></Link>
@@ -141,10 +141,10 @@ const Footer = () => {
           </ul>
         </div>
 
-          <p className="text-[#000] md:text-[1.5rem] text-[0.8rem] uppercase">
+          <p className="text-[#000] md:text-[1.2rem] text-[0.8rem] uppercase">
           Copyright &copy; 2025 Fusions Property Ltd - All Rights Reserved.
           </p>
-          <p className="text-right pt-[1.2rem] md:text-[1.2rem] text-[0.9rem]">Powered by Ajay<span className="md:text-[1.2rem] text-[0.9rem] font-bold">Tech</span></p>
+          <p className="text-right pt-[1.2rem] md:text-[1rem] text-[0.9rem]">Powered by Ajay<span className="md:text-[1.2rem] text-[0.9rem] font-bold">Tech</span></p>
       </footer>
     </>
   );

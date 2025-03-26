@@ -26,7 +26,7 @@ const Nav = () => {
           <Link href="/" className="hover:text-blue-500 transition duration-300">home</Link>
           <Link href="/contact" className="hover:text-blue-500 transition duration-300">contact us</Link>
           <Link href="#bookus" className="hover:text-blue-500 transition duration-300">book now</Link>
-          <Link href="#faqs" className="hover:text-blue-500 transition duration-300">faq</Link>
+          <Link href="/faqs" className="hover:text-blue-500 transition duration-300">faq</Link>
         </div>
 
         {/* Mobile Menu Button */}

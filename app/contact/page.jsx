@@ -19,14 +19,14 @@ const page = () => {
           </p>
           <Link
             href="mailto:INFO@FUSIONPROPERTY.CO.UK"
-            className="flex items-center gap-2 underline py-3"
+            className="flex items-center gap-2 underline py-3" target="_blank" rel="noreferrer"
           >
             <span>
               <CiMail />
             </span>
             INFO@FUSIONPROPERTY.CO.UK
           </Link>
-          <Link href="tel:07367783778" className="flex items-center gap-2 underline py-3">
+          <Link href="tel:07367783778" className="flex items-center gap-2 underline py-3" target="_blank" rel="noreferrer">
             <span>
               <LiaPhoneAltSolid />
             </span>

@@ -1,10 +1,12 @@
 'use client'
 
+import Nav from "@/components/Nav";
 import { motion } from "framer-motion";
 
 const Listings = () => {
   return (
     <>
+    <Nav/>
       <section className="max-w-7xl mx-auto px-4" id="listings">
         <motion.h2
           className="text-4xl my-[3rem] font-bold text-center uppercase text-[#707070]"
