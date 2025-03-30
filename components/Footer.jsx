@@ -122,8 +122,8 @@ const Footer = () => {
       </footer>
       <footer className="max-w-7xl mx-auto text-center pt-[2rem] pb-[1rem] px-[1rem]">
         <div>
-            <Image src="/asset/bottom_logo.png" width={300} height={150} alt="Fusions Property Ltd Logo" className="md:block hidden"/>
-            <Image src="/asset/bottom_logo.png" width={150} height={75} alt="Fusions Property Ltd Logo" className="md:hidden"/>
+            <Image src="/asset/bottom_logo_new.png" width={300} height={150} alt="Fusions Property Ltd Logo" className="md:block hidden"/>
+            <Image src="/asset/bottom_logo_new.png" width={150} height={75} alt="Fusions Property Ltd Logo" className="md:hidden"/>
         </div>
 
         <div className="text-[#000] text-sm md:text-base py-[2.5rem]">

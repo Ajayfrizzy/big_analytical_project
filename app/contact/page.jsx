@@ -19,20 +19,29 @@ const page = () => {
           </p>
           <Link
             href="mailto:INFO@FUSIONPROPERTY.CO.UK"
-            className="flex items-center gap-2 underline py-3" target="_blank" rel="noreferrer"
+            className="flex items-center gap-2 underline py-3"
+            target="_blank"
+            rel="noreferrer"
           >
             <span>
               <CiMail />
             </span>
             INFO@FUSIONPROPERTY.CO.UK
           </Link>
-          <Link href="tel:07367783778" className="flex items-center gap-2 underline py-3" target="_blank" rel="noreferrer">
+          <Link
+            href="tel:07367783778"
+            className="flex items-center gap-2 underline py-3"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>
               <LiaPhoneAltSolid />
             </span>
             07367783778
           </Link>
-          <address>15 Lewdendale Worsbrough Barnsley S70 5DT</address>
+          <address>
+            Apartment 805 The gateway 74-79 Broad Street Sheffield S2 5TN
+          </address>
         </div>
       </section>
     </>

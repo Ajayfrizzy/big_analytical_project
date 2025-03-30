@@ -39,7 +39,7 @@ const Wwd = () => {
               professionals.
             </p>
 
-            <Link
+            {/* <Link
               href="#"
               className="uppercase flex items-center justify-center text-[#7d7660] pb-2"
             >
@@ -47,7 +47,7 @@ const Wwd = () => {
                 Read more
               </span>
               <IoIosArrowForward />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -71,7 +71,7 @@ const Wwd = () => {
             </p>
 
             <Link
-              href="#"
+              href="/landlord"
               className="uppercase flex items-center justify-center text-[#7d7660] pb-2"
             >
               <span className="pr-3 border-b-2 border[#7d7660] text-[0.9rem]">
