@@ -40,7 +40,7 @@ const page = () => {
             07367783778
           </Link>
           <address>
-            Apartment 805 The gateway 74-79 Broad Street Sheffield S2 5TN
+            Unit 805 The gateway 74-79 Broad Street Sheffield S2 5TN
           </address>
         </div>
       </section>
