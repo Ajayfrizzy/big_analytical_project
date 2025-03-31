@@ -58,7 +58,7 @@ const Slider = () => {
         autoplay={{ delay: 4000 }}
         loop={true}
         className="w-full h-full !z-2"
-        style={{ zIndex: 0 }}
+        style={{ zIndex: -1 }}
       >
         <SwiperSlide>
           <img src="/asset/uk_house_1.jpeg" alt="Slide 1" className="w-full h-full object-cover" />
