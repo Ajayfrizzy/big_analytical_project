@@ -31,7 +31,7 @@ const Wwa = () => {
           transition={{ duration: 0.8 }}
         >
           <p className="border-l-4 border-[#999076] pr-[2rem] md:block hidden"></p>
-          <p className="text-[#707070] text-[1.5rem]">
+          <p className="text-[#707070] text-[1rem] md:text-[1.5rem] px-[2rem] md:px-0">
             We are a property management company specialising in Corporate Lets, 
             Houses of Multiple Occupancy (HMOs) and Serviced Accommodation (SA). 
             We offer guaranteed rents over minimum length contracts of three years, 

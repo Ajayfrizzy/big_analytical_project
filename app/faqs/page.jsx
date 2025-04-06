@@ -17,12 +17,12 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-[7rem] space-y-4" id="faqs">
+    <div className="max-w-2xl mx-auto mt-4 md:mt-[7rem] space-y-4 px-4 mt-[7.8rem]" id="faqs">
       <p className="text-center text-[0.9rem] md:text-[1.2rem]">
         <span className="block font-bold uppercase text-[#595959]">Frequently Asked Questions</span>
         <span className="text-[#837c67] block py-4 px-3 text-[0.9rem] md:text-[1.2rem]">
           Please reach us at{" "}
-          <Link href="mailto:info@fusionproperty.co.uk" className="text-blue-500 hover:underline">
+          <Link href="mailto:info@fusionproperty.co.uk" className="text-blue-500 hover:underline break-words">
             info@fusionproperty.co.uk
           </Link>{" "}
           if you cannot find an answer to your question.
@@ -31,19 +31,23 @@ const Accordion = ({ items }) => {
       {items.map((item, index) => (
         <div
           key={index}
-          className="border border-gray-300 rounded-lg mx-4 md:mx-0"
+          className="border border-gray-300 rounded-lg mx-0 w-full md:w-[90%] lg:w-[80%] mx-auto overflow-hidden shadow-md"
+          style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
         >
           {/* Header */}
           <button
             onClick={() => toggleItem(index)}
-            className="flex justify-between items-center w-full p-4 text-sm md:text-lg font-semibold bg-gray-100 hover:bg-gray-200 transition duration-300 ease-in-out text-justify"
+            className="flex justify-between items-center w-full p-3 md:p-4 text-xs md:text-lg font-semibold bg-gray-100 hover:bg-gray-200 transition duration-300 ease-in-out text-left"
           >
-            <span className="pr-4 md:text-[1.2rem] text-[0.8rem]">{item.title}</span>
+            <span className="pr-2 md:pr-4 md:text-[1.2rem] text-[0.8rem] break-words">
+              {item.title}
+            </span>
             <motion.span
               animate={{ rotate: openIndexes.includes(index) ? 180 : 0 }}
               transition={{ duration: 0.3 }}
+              className="flex-shrink-0"
             >
-              <IoIosArrowDown size={24} />
+              <IoIosArrowDown size={20} />
             </motion.span>
           </button>
 
@@ -55,9 +59,9 @@ const Accordion = ({ items }) => {
               opacity: openIndexes.includes(index) ? 1 : 0,
             }}
             transition={{ duration: 0.3 }}
-            className="overflow-hidden px-4"
+            className="overflow-hidden px-2 md:px-4"
           >
-            <p className="p-4 text-gray-700 text-sm md:text-lg">
+            <p className="p-3 md:p-4 text-gray-700 text-xs md:text-lg break-words">
               {item.content}
             </p>
           </motion.div>
@@ -163,7 +167,6 @@ const Faqs = () => {
         "No, I’m afraid this isn’t allowed. You need to be in full-time employment or be a mature/postgraduate student. We will ask for confirmation from your employer or university. ",
     },
   ];
-
   return (
     <>
     <Nav/>

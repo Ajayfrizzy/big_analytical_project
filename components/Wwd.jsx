@@ -41,7 +41,7 @@ const Wwd = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-[2rem] font-bold pb-2 md:py-0">Estate Agents</h2>
-          <p className="text-[#707070] text-[1.2rem] pb-5">
+          <p className="text-[#707070] text-[1rem] md:text-[1.2rem] pb-5 px-[2rem] md:px-0">
           CREATING A WIN-WIN SITUATION With locations all around Yorkshire,
               we are constantly searching for new properties to add to our
               expanding portfolio. We primarily focus on properties located in
