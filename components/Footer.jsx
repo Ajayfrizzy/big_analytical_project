@@ -52,7 +52,7 @@ const Footer = () => {
           <div 
             ref={containerRef}
             style={{ height: containerHeight, transition: "height 0.3s ease" }}
-            className="bg-white w-[60%] max-w-3xl mx-auto my-6 rounded-lg shadow-lg relative"
+            className="bg-white w-[90%] md:w-[60%] max-w-3xl mx-auto my-6 rounded-lg shadow-lg relative"
           >
             {/* This container will be completely replaced by the feedback form when open */}
             {!isFormOpen ? (
