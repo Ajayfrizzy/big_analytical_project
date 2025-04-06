@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <div className="bg-white text-black shadow-2xl fixed top-0 left-0 w-full z-[999] transition duration-300 ease-in-out transform bg-opacity-90 backdrop-blur-md">
-      <div className="flex justify-between items-center max-w-7xl mx-auto py-2 px-[3rem]">
+      <div className="flex justify-between items-center max-w-7xl mx-auto py-2 px-[1rem] md:px-[3rem]">
 
         <Link href="/">
         <div className="border-2 border-[#FAF9F6] rounded-3xl">
