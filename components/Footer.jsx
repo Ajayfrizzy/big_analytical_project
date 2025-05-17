@@ -115,7 +115,7 @@ const Footer = () => {
                 </p>
               </div>
             ) : (
-              <Feedback isOpen={isFormOpen} onClose={handleCloseForm} />
+              <Feedback isOpen={isFormOpen} onClose={handleCloseForm}/>
             )}
           </div>
         </div>

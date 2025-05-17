@@ -83,22 +83,22 @@ const Feedback = ({ isOpen, onClose }) => {
       </h2>
 
       {/* Feedback Messages */}
-     {/* Feedback Messages */}
-{submitSuccess && (
-  <div className="mb-4 p-4 bg-green-100 text-green-700 rounded-md">
-    Thank you for your feedback! We'll get back to you soon.
-  </div>
-)}
-{submitError && (
-  <div className="mb-4 p-4 bg-red-100 text-red-700 rounded-md">
-    {submitError}
-  </div>
-)}
-
-
+      {submitSuccess && (
+        <div className="mb-2 p-2 md:p-4 bg-green-100 text-green-700 rounded-md text-[0.9rem] md:text-[1.1rem]">
+          Thank you for your feedback! We'll get back to you soon.
+        </div>
+      )}
+      {submitError && (
+        <div className="mb-4 p-4 bg-red-100 text-red-700 rounded-md">
+          {submitError}
+        </div>
+      )}
 
       {/* Feedback Form */}
-      <form className="space-y-4 max-w-2xl mx-auto h-75" onSubmit={handleSubmit}>
+      <form
+        className="space-y-4 max-w-2xl mx-auto"
+        onSubmit={handleSubmit}
+      >
         <input
           type="text"
           placeholder="Name"
@@ -127,7 +127,7 @@ const Feedback = ({ isOpen, onClose }) => {
           required
         ></textarea>
 
-       {/* <p className="text-xs text-gray-500 text-center">
+        {/* <p className="text-xs text-gray-500 text-center">
           This site is protected by reCAPTCHA and the Google{" "}
           <a href="#" className="underline">
             Privacy Policy
